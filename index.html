@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Expanding Cards</title>
+    <title>Rotating Navigation</title>
 
     <link rel="stylesheet" href="styles.css" />
     <link
@@ -15,8 +15,48 @@
     />
   </head>
   <body>
-    <h1>Expanding Cards</h1>
-
+    <div class="container show-nav">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Amazing Afghanistan</h1>
+        <small>Ahmad Samim HOSHMAND</small>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+          fugiat! Vel quod tempore consequatur nostrum provident repellat
+          reprehenderit numquam officiis hic vitae beatae, cupiditate fugit
+          quidem rerum distinctio voluptas veritatis voluptate quaerat corrupti
+          nemo maxime aspernatur ullam tempora totam. Natus repudiandae, ipsa
+          reiciendis dolor nobis placeat asperiores sequi modi excepturi, vel,
+          veniam beatae. Quo veritatis eius ducimus! Unde sit, velit repellendus
+          at nisi non temporibus ullam fugit dolorem assumenda maxime ea.
+          Laudantium aut fuga dolor, perferendis eligendi tenetur similique
+          adipisci harum excepturi error eveniet expedita sapiente! Iusto
+          officiis vitae repellendus nostrum fugit, velit quidem, eaque
+          excepturi dolores nulla corrupti praesentium!
+        </p>
+        <h3>Bamyan</h3>
+        <img
+          src="https://images.unsplash.com/photo-1637228289754-9274a9ace2e7?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Bamyan"
+        />
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><i class="fa fa-home"></i>Home</li>
+        <li><i class="fa fa-user-alt"></i>About</li>
+        <li><i class="fa fa-envelope"></i>Contact</li>
+      </ul>
+    </nav>
     <script src="styles.css"></script>
   </body>
 </html>
